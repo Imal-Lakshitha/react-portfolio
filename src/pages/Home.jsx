@@ -125,7 +125,7 @@ const Home = () => {
             }}
             >
               <img 
-                src="/profile.jpg" 
+                src={`${import.meta.env.BASE_URL}profile.jpg`} 
                 alt="Imal Lakshitha" 
                 style={{
                   width: '100%',
